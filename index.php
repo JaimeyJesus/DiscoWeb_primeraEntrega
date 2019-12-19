@@ -55,8 +55,7 @@ if (!isset($_SESSION['user'])){
 
 // Llamo a la función seleccionada
 $procRuta();
-print_r($_POST);
-print_r($_SESSION);
+
 
 
 
