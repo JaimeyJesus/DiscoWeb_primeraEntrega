@@ -1,0 +1,125 @@
+body {
+  /*background: url(../img/nubes.jpg);*/
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment:fixed;
+  text-align: justify;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  color: #757E82;
+}
+
+#container {
+	position:fixed;
+	margin: 1vh auto 1vh 5vw;
+	width: 90%;
+	height:87%;
+	background: rgba(255, 255, 255, 0.5);
+	border: solid 1px;
+	padding: 20px;
+}
+
+#header {
+  background: #3A847E;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+#header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+#content {
+	
+	height:100%;
+  background: white;
+  clear: left;
+  padding: 6px;
+}
+
+#content h2 {
+  color:#000;
+  font-size: 160%;
+  margin: 0 0 .5em;
+}
+
+#aviso {
+	background: white;
+	color: red;
+}
+
+li {
+  padding: 18px;
+}
+
+#aviso {
+	background: red;
+	color: black;
+}
+
+#detalles{
+	width:30vw;
+}
+
+a {
+  color: #429;
+  text-decoration: none;
+}
+textarea {
+   resize: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: #5E9C97;
+  padding: 2%;
+}
+.grid-item {
+	
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 4%;
+  font-size: 1em;
+  text-align: center;
+}
+
+#footer {
+  color: white;
+  background: blue;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  height: 1%;
+}
+
+form {
+	width: 50vw;
+    display: grid;
+    grid-template-columns: 10vw;
+    grid-gap: 16px;  
+}
+
+label {
+    grid-column: 1 / 2;
+}
+ 
+input {
+    grid-column: 2 / 2;
+}
+
+button{
+	grid-column: 1 / 2;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
